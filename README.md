@@ -8,7 +8,6 @@ about your experience through GitHub issues.
 
 ## Useful commands
 
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
- * `go test`         run unit tests
+ * `./cdk-cli-wrapper-dev.sh deploy`      deploy this stack to your default AWS account/region
+ * `./cdk-cli-wrapper-dev.sh diff`        compare deployed stack with current state
+ * `./cdk-cli-wrapper-dev.sh synth`       emits the synthesized CloudFormation template
